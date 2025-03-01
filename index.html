@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Thermopylae</title>
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+            @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
 
             body {
                 background-color: black;
@@ -17,9 +17,9 @@
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
+                margin: 0;
             }
             .title {
-                font-family: "Orbitron", sans-serif;
                 font-size: 50px;
                 font-weight: bold;
                 text-transform: uppercase;
@@ -27,9 +27,24 @@
             .title span {
                 font-size: 70px;
             }
+            .subtitle {
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 10px;
+                opacity: 0.8;
+            }
+            .email {
+                font-family: "Source Code Pro", monospace;
+                font-size: 14px;
+                position: absolute;
+                bottom: 20px;
+                opacity: 0.6;
+            }
         </style>
     </head>
     <body>
         <div class="title">therm<span>O</span>pylae</div>
+        <div class="subtitle">Pioneering autonomy for space exploration</div>
+        <div class="email">yehor@thermopylaespace.com</div>
     </body>
 </html>
